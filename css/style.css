@@ -124,8 +124,8 @@ a{
     z-index: 99999;
     display: flex;
 }
-#preloader:before,
-#preloader:after{
+/* #preloader:before, */
+/* #preloader:after{
     content: '';
     position: absolute;
     left: 0;
@@ -137,7 +137,7 @@ a{
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-}
+} */
 #preloader:after{
     left: auto;
     right: 0;
