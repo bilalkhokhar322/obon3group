@@ -115,7 +115,7 @@ a{
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 
-/* #preloader{
+#preloader{
     position: fixed;
     left: 0;
     top: 0;
@@ -123,9 +123,9 @@ a{
     width: 100%;
     z-index: 99999;
     display: flex;
-} */
-/* #preloader:before, */
-/* #preloader:after{
+}
+#preloader:before,
+#preloader:after{
     content: '';
     position: absolute;
     left: 0;
@@ -137,12 +137,12 @@ a{
     -webkit-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-} */
-/* #preloader:after{
+}
+#preloader:after{
     left: auto;
     right: 0;
-} */
-/* #preloader .loader_line{
+}
+#preloader .loader_line{
     margin: auto;
     width: 1px;
     height: 250px;
@@ -184,7 +184,7 @@ a{
     -o-animation: lineround 1200ms linear 0s infinite;
     animation: lineround 1200ms linear 0s infinite;
     animation-delay: 2000ms;
-} */
+}
 
 @keyframes lineheight{
     0%{
