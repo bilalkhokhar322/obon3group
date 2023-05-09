@@ -1,0 +1,143 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;}
+.container .logo{
+    margin: 30px;
+    margin-left: 100px;
+
+}
+.container .logoName{
+    font-size: 38px;
+    color: rgb(73,150,98);
+    font-weight: 600;
+}
+.mainContainer{
+    min-height: 100vh;
+    width: 100%;
+}
+.mainContainer .container{
+    min-height: 80vh;
+    padding-top: 30px;
+    background: rgb(247,248,252);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainContainer .container .left .contant center >p{
+font-size: 35px;
+font-weight: 300;}
+
+.mainContainer .container .left .contant center >h3{
+    font-size: 40px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.mainContainer .lunchDate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    height: 200px;
+    padding-right: 40px;
+}
+.mainContainer .lunchDate .contant center{
+    line-height: 30px;
+background: rgb(73,150,98);
+border-radius: 10px ;
+
+}
+.mainContainer .lunchDate .contant center >h5{
+    padding-top: 30px;
+    /* color: rgb(73,150,98); */
+    color:aliceblue;
+    font-size: 25px;
+
+}.mainContainer .lunchDate .contant center >p{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.692);
+    color: aliceblue;
+    padding: 0px 20px;
+}.mainContainer .lunchDate .contant center >h3{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    color: white;
+    width: 25rem;
+    height: 2cm;
+    background: rgb(3,107,107);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius:20px ;
+    border-bottom-left-radius:20px ;
+
+}
+.maincontainer{
+    margin-top: 100px;
+    min-height: 100vh;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.maincontainer .contant{
+    background:rgb(255, 255, 250);
+    width: 68%;
+    height: 50vh;
+    border: 1px solid rgb(3,107,107);
+    border-radius: 5px;
+}
+.maincontainer .contant .container{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.maincontainer .contant .container center >h1{
+    font-weight: lighter;
+    font-size: 40px;
+    /* background-color: blue; */
+    /* color: white; */
+    border-radius: 5px;
+    border: none;
+}
+
+.maincontainer .contant .container center form > input ,select{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    min-width: 300px;
+    padding-left: 10px;
+    height: 1cm;
+    border: 1px solid  rgb(73,150,98);
+    border-radius: 2px;
+    
+}
+.maincontainer .contant .container center form >select{
+    min-width: 627px;
+}
+.maincontainer .contant .container center form >button{
+    min-width: 627px;
+    height: 1.01cm;
+    background-color: rgb(3,107,107);
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+.maincontainer .contant .container center form >button:active{
+    background-color: rgba(3, 107, 107, 0.911);
+    transition: width 10s;
+}
+
+.footer{
+    width: 100%;
+    min-height: 30px;
+    background: rgb(3,107,107);
+    color: white;
+}
+
+
